@@ -1,0 +1,39 @@
+@media screen and (min-width: 360px) {
+    .training {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .training__list {
+        background-color: var(--chinese-black);
+        border-radius: 5px;
+    }
+
+    .training__item {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px 10px;
+    }
+
+    .training__item-title {
+        font-size: 24px;
+        font-weight: var(--roboto-medium);
+    }
+
+    .training__item-subTitle {
+        font-size: 16px;
+        font-weight: var(--roboto-regular);
+    }
+
+    .training__item-time {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .training__item-time .fa-solid {
+        font-size: 17px;
+    }
+}

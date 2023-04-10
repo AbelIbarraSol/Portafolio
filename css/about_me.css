@@ -1,0 +1,20 @@
+@media screen and (min-width: 360px) { 
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .aboutMe__imageCircle{
+        display: none;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+    .aboutMe__description {
+        width: 100%;
+        font-size: 16px;
+        font-weight: var(--roboto-regular);
+    }
+}

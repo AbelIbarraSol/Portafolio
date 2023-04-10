@@ -1,0 +1,48 @@
+@media screen and (min-width: 360px) {
+    .projects {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .project__card {
+        background: var(--chinese-black);
+        border-radius: 5px;
+        padding-bottom: 15px;
+    }
+
+    .project__card-preview {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .project__card-title {
+        padding: 15px 15px 15px 15px;
+        font-size: 16px;
+        font-weight: var(--roboto-medium);
+    }
+
+    .project__card-buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project__card-button {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 16px 16px;
+        margin: 0 15px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+
+    .project__card-button .fa-solid {
+        font-size: 24px;
+    }
+
+    .project__card-button-title {
+        font-weight: var(--roboto-medium);
+        font-size: 16px;
+    }
+}

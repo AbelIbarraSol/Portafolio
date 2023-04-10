@@ -1,0 +1,30 @@
+@media screen and (min-width: 360px) {
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hobbies__list {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--chinese-black);
+        border-radius: 5px;
+    }
+
+    .hobbies__item {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px
+    }
+
+    .hobbies .fa-solid {
+        font-size: 34px;
+    }
+
+    .hobbies__item-subTitle {
+        text-align: center;
+    }
+}

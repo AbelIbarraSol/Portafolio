@@ -1,0 +1,43 @@
+@media screen and (min-width: 360px) {
+    .circle {
+        padding-top: 30px;
+    }
+
+    .circle-background {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        background-color: var(--chinese-black);
+        border-radius: 50%;
+    }
+
+    .circle-animation {
+        justify-content: flex-end;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .title__name {
+        width: 100%;
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .title__job {
+        width: 100%;
+        color: var(--princeton-orange);
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .title__buttons {
+        width: 100%;
+        display: flex;
+        padding-top: 10px;
+        gap: 30px;
+    }
+}
