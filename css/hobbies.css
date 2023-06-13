@@ -7,7 +7,7 @@
 
     .hobbies__list {
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
         background-color: var(--chinese-black);
         border-radius: 5px;
     }

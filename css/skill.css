@@ -11,37 +11,57 @@
         border-radius: 10px;
       }
       
-      .skills__list__item {
+      /* .skills__list__item {
         height: 40px;
         padding: 10px 0;
         transition: .7s;
         list-style: none;
         overflow: hidden;
-      }
+      } */
       
       .skill__content_list-title {
         padding: 10px 0;
-        cursor: pointer;
+        color: var(--princeton-orange);
+        /* cursor: pointer; */
         text-decoration: none;
-        color: white;
         display: flex;
         justify-content: space-between;
         align-items: center;
       }
-      
-      .skill__content_list-title:hover {
-        color: #ff842b;
+
+      .skill__content_list-title .fa-brands{
+        color: var(--princeton-orange);
+        font-size: 32px;
+      }
+      .skill__content_list-title .fa-solid {
+        color: var(--princeton-orange);
+        font-size: 32px;
       }
       
+      /* .skill__content_list-title:hover {
+        color: #ff842b;
+      }
+       */
       .skill__list-title {
         font-size: 24px;
         font-weight: var(--roboto-medium);
       }
       
-      .skill__sublist {
-        list-style: none;
+      .skills__list__item .skill__sublist {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
-      
+      .skill__sublist__item{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 10px 0 10px 0;
+      }
+      .skill__sublist__item-icon{
+        width: 24px;
+        height: 24px;
+      }
       .skill__sublist__item-title {
         font-size: 16px;
         font-weight: var(--roboto-regular);

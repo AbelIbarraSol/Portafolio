@@ -8,6 +8,7 @@
     .training__list {
         background-color: var(--chinese-black);
         border-radius: 5px;
+        padding: 30px 30px;
     }
 
     .training__item {
